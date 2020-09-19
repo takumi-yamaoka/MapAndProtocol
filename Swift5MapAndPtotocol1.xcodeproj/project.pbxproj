@@ -13,6 +13,7 @@
 		D3759DA224D963300025D7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3759DA024D963300025D7AB /* Main.storyboard */; };
 		D3759DA424D963320025D7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3759DA324D963320025D7AB /* Assets.xcassets */; };
 		D3759DA724D963320025D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3759DA524D963320025D7AB /* LaunchScreen.storyboard */; };
+		D3759DAF24D963770025D7AB /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3759DAE24D963770025D7AB /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3759DA324D963320025D7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3759DA624D963320025D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3759DA824D963320025D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3759DAE24D963770025D7AB /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				D3759D9924D963300025D7AB /* Swift5MapAndPtotocol1 */,
-				D3759D9824D963300025D7AB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +52,7 @@
 				D3759D9724D963300025D7AB /* Swift5MapAndPtotocol1.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D3759D9924D963300025D7AB /* Swift5MapAndPtotocol1 */ = {
@@ -59,10 +61,12 @@
 				D3759D9A24D963300025D7AB /* AppDelegate.swift */,
 				D3759D9C24D963300025D7AB /* SceneDelegate.swift */,
 				D3759D9E24D963300025D7AB /* ViewController.swift */,
+				D3759DAE24D963770025D7AB /* NextViewController.swift */,
 				D3759DA024D963300025D7AB /* Main.storyboard */,
 				D3759DA324D963320025D7AB /* Assets.xcassets */,
 				D3759DA524D963320025D7AB /* LaunchScreen.storyboard */,
 				D3759DA824D963320025D7AB /* Info.plist */,
+				D3759D9824D963300025D7AB /* Products */,
 			);
 			path = Swift5MapAndPtotocol1;
 			sourceTree = "<group>";
@@ -139,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3759D9F24D963300025D7AB /* ViewController.swift in Sources */,
+				D3759DAF24D963770025D7AB /* NextViewController.swift in Sources */,
 				D3759D9B24D963300025D7AB /* AppDelegate.swift in Sources */,
 				D3759D9D24D963300025D7AB /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.Swift5MapAndPtotocol1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.Swift5MapAndPtotocol1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
